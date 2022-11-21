@@ -1,0 +1,28 @@
+slowo = input()
+slowo = list(slowo)
+display = "_" * len(slowo)
+display = list(display)
+
+zycia = 10
+
+while zycia > 0:
+    print('')
+    print(''.join(display))
+    print('')
+
+    print('podaj litere: ')
+    litera = input()
+
+    if litera in slowo:
+        for i in range(len(slowo)):
+            if(slowo[i] == litera):
+                display[i] = litera
+    else:
+        zycia -= 1
+    if zycia == 0:
+        print('end')
+        break
+    if display == slowo:
+        print('Wygrales!!!')
+        break
+
