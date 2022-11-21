@@ -1,0 +1,43 @@
+body {
+    background:#7986cb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background: #e91e63;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* KOMUNIKATY */
+
+.success {
+    font-weight: bold;
+    color: green;
+}
+
+.warning {
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #161211;
+    padding: 40px 0;
+}
+
+.header .logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: white
+}
+
+.header .menu {
+    position: relative;
+}
+
+.header .menu ul {
+    background: #efab00;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.header .menu ul li {
+    padding: 20px 30px;
+}
+.products .container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20em;
+}
+.products {
+    margin-top: 60px;
+    background: rgb(33,33,33);
+background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(97,97,97,1) 35%, rgba(33,33,33,1) 100%);
+}
+.products .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.products .container .product .desc {
+    text-align: center;
+}
+.products .container .product {
+    text-align: center;
+}
+.products .container .product img {
+    width: 200px;
+    border: rgb(54, 54, 54);
+    border-radius: 8px;
+}
+.products .container .product h2 {
+    color: #efab00;
+    margin-bottom: 10px;
+}
+.products .container .product button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(#f3ae0f, #E38916, #e38916);
+}
+.products .container .product button:hover{
+    background: black;
+    color: chocolate;
+}
+@media only screen and (max-width: 420px) {
+    .container {
+     width: 100%;   
+    }
+    .header .menu ul {
+        flex-direction: column;
+    }
+    .products {
+        margin-top: 360px;
+        padding: 60px;
+    }
+    .products .container {
+        flex-direction: column;
+        padding: 0;
+    }
+.products .container .product {
+    margin: 20px;
+}
+  }
