@@ -1,1 +1,1 @@
-UPDATE pracownicy SET stanowisko = 4 WHERE stanowisko = 3;
+UPDATE pracownicy SET stanowisko = 4 WHERE stanowisko = 3

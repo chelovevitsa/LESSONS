@@ -1,1 +1,1 @@
-SELECT nazwa FROM dania WHERE typ=3 AND cena < 15;
+SELECT nazwa FROM dania WHERE typ=3 AND cena < 15
